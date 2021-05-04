@@ -29,6 +29,20 @@ Assustos tratados nessa revisão:
 	scanf(" %c", &chute)
 ~~~
 
+- Ponteiro.
+~~~C
+
+void calcula(int* c) {
+	(*c)++;
+	printf("%d\n", *c);
+}
+[...]
+	int c = 10;
+	calcula(&c);
+[...]
+~~~
+
+
 
 
 ### Revisão da linguagem Markdown
